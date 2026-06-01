@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Максим",
+      "email": "maxim85@mail.ru"
+    },
+    {
+      "id": "2",
+      "name": "Алина",
+      "email": "alinka.alina@yandex.ru"
+    },
+    {
+      "id": "3",
+      "name": "Тимур",
+      "email": "timur.tim@outlook.com"
+    },
+    {
+      "id": "4",
+      "name": "Вероника",
+      "email": "veronika_2000@icloud.com"
+    },
+    {
+      "id": "5",
+      "name": "Артём",
+      "email": "artem.work@bk.ru"
+    },
+    {
+      "id": "6",
+      "name": "Полина",
+      "email": "polly.polina@list.ru"
+    },
+    {
+      "id": "7",
+      "name": "Даниил",
+      "email": "d.daniel@yahoo.com"
+    },
+    {
+      "id": "8",
+      "name": "Елизавета",
+      "email": "liza.liza@rambler.ru"
+    },
+    {
+      "id": "9",
+      "name": "Матвей",
+      "email": "matvey.m@inbox.ru"
+    },
+    {
+      "id": "10",
+      "name": "София",
+      "email": "sofia.s@ukr.net"
+    },
+    {
+      "id": "11",
+      "name": "Никита",
+      "email": "n.nikitOS@protonmail.com"
+    },
+    {
+      "id": "12",
+      "name": "Анастасия",
+      "email": "nastya.family@mail.com"
+    },
+    {
+      "id": "13",
+      "name": "Егор",
+      "email": "egor.egorovich@internet.ru"
+    },
+    {
+      "id": "14",
+      "name": "Виктория",
+      "email": "vika.v@rediffmail.com"
+    },
+    {
+      "id": "15",
+      "name": "Кирилл",
+      "email": "kirya.kirill@zoho.com"
+    }
+  ]
+}
