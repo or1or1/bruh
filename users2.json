@@ -1,0 +1,464 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Иван Петров",
+      "username": "ivan_petrov",
+      "email": "ivan.petrov@example.com",
+      "phone": "+7-999-123-45-67",
+      "website": "https://ivanpetrov.ru",
+      "address": {
+        "street": "ул. Ленина",
+        "suite": "кв. 42",
+        "city": "Москва",
+        "zipcode": "101000",
+        "geo": {
+          "lat": "55.7558",
+          "lng": "37.6173"
+        }
+      },
+      "company": {
+        "name": "Яндекс",
+        "catchPhrase": "Найдётся всё",
+        "bs": "поисковые технологии"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Мария Сидорова",
+      "username": "maria_sidorova",
+      "email": "maria.sidorova@example.com",
+      "phone": "+7-999-234-56-78",
+      "website": "https://mariasidorova.ru",
+      "address": {
+        "street": "пр. Мира",
+        "suite": "кв. 15",
+        "city": "Санкт-Петербург",
+        "zipcode": "190000",
+        "geo": {
+          "lat": "59.9343",
+          "lng": "30.3351"
+        }
+      },
+      "company": {
+        "name": "ВКонтакте",
+        "catchPhrase": "Оставайтесь на связи",
+        "bs": "социальная сеть"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Алексей Козлов",
+      "username": "alexey_kozlov",
+      "email": "alexey.kozlov@example.com",
+      "phone": "+7-999-345-67-89",
+      "website": "https://alexeykozlov.ru",
+      "address": {
+        "street": "ул. Тверская",
+        "suite": "офис 301",
+        "city": "Москва",
+        "zipcode": "125009",
+        "geo": {
+          "lat": "55.7642",
+          "lng": "37.6057"
+        }
+      },
+      "company": {
+        "name": "Сбер",
+        "catchPhrase": "Всегда рядом",
+        "bs": "финансовые услуги"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Елена Новикова",
+      "username": "elena_novikova",
+      "email": "elena.novikova@example.com",
+      "phone": "+7-999-456-78-90",
+      "website": "https://elenanovikova.ru",
+      "address": {
+        "street": "ул. Красная",
+        "suite": "кв. 78",
+        "city": "Казань",
+        "zipcode": "420000",
+        "geo": {
+          "lat": "55.7887",
+          "lng": "49.1221"
+        }
+      },
+      "company": {
+        "name": "Татнефть",
+        "catchPhrase": "Энергия развития",
+        "bs": "нефтедобыча"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Дмитрий Морозов",
+      "username": "dmitry_morozov",
+      "email": "dmitry.morozov@example.com",
+      "phone": "+7-999-567-89-01",
+      "website": "https://dmitrymorozov.ru",
+      "address": {
+        "street": "ул. Ломоносова",
+        "suite": "кв. 23",
+        "city": "Новосибирск",
+        "zipcode": "630000",
+        "geo": {
+          "lat": "55.0302",
+          "lng": "82.9204"
+        }
+      },
+      "company": {
+        "name": "2ГИС",
+        "catchPhrase": "Знаем город",
+        "bs": "картографический сервис"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Ольга Кузнецова",
+      "username": "olga_kuznetsova",
+      "email": "olga.kuznetsova@example.com",
+      "phone": "+7-999-678-90-12",
+      "website": "https://olgakuznetsova.ru",
+      "address": {
+        "street": "ул. Пушкина",
+        "suite": "кв. 56",
+        "city": "Екатеринбург",
+        "zipcode": "620000",
+        "geo": {
+          "lat": "56.8389",
+          "lng": "60.6057"
+        }
+      },
+      "company": {
+        "name": "СКБ Контур",
+        "catchPhrase": "Электронный документооборот",
+        "bs": "ИТ-решения для бизнеса"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Сергей Волков",
+      "username": "sergey_volkov",
+      "email": "sergey.volkov@example.com",
+      "phone": "+7-999-789-01-23",
+      "website": "https://sergeyvolkov.ru",
+      "address": {
+        "street": "пр. Ленина",
+        "suite": "кв. 90",
+        "city": "Нижний Новгород",
+        "zipcode": "603000",
+        "geo": {
+          "lat": "56.2965",
+          "lng": "43.9361"
+        }
+      },
+      "company": {
+        "name": "ГАЗ",
+        "catchPhrase": "Надёжность движения",
+        "bs": "автомобилестроение"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Анна Соколова",
+      "username": "anna_sokolova",
+      "email": "anna.sokolova@example.com",
+      "phone": "+7-999-890-12-34",
+      "website": "https://annasokolova.ru",
+      "address": {
+        "street": "ул. Гагарина",
+        "suite": "кв. 34",
+        "city": "Челябинск",
+        "zipcode": "454000",
+        "geo": {
+          "lat": "55.1644",
+          "lng": "61.4368"
+        }
+      },
+      "company": {
+        "name": "ЧТПЗ",
+        "catchPhrase": "Трубная продукция",
+        "bs": "металлургия"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Павел Орлов",
+      "username": "pavel_orlov",
+      "email": "pavel.orlov@example.com",
+      "phone": "+7-999-901-23-45",
+      "website": "https://pavelorlov.ru",
+      "address": {
+        "street": "ул. Советская",
+        "suite": "кв. 12",
+        "city": "Самара",
+        "zipcode": "443000",
+        "geo": {
+          "lat": "53.1959",
+          "lng": "50.1002"
+        }
+      },
+      "company": {
+        "name": "МегаФон",
+        "catchPhrase": "По-настоящему рядом",
+        "bs": "телекоммуникации"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Татьяна Белова",
+      "username": "tatiana_belova",
+      "email": "tatiana.belova@example.com",
+      "phone": "+7-999-012-34-56",
+      "website": "https://tatianabelova.ru",
+      "address": {
+        "street": "пр. Октября",
+        "suite": "кв. 67",
+        "city": "Уфа",
+        "zipcode": "450000",
+        "geo": {
+          "lat": "54.7348",
+          "lng": "55.9578"
+        }
+      },
+      "company": {
+        "name": "Башнефть",
+        "catchPhrase": "Энергия успеха",
+        "bs": "нефтепереработка"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Андрей Воробьев",
+      "username": "andrey_vorobiev",
+      "email": "andrey.vorobiev@example.com",
+      "phone": "+7-999-123-45-68",
+      "website": "https://andreyvorobiev.ru",
+      "address": {
+        "street": "ул. Молодежная",
+        "suite": "кв. 89",
+        "city": "Красноярск",
+        "zipcode": "660000",
+        "geo": {
+          "lat": "56.0105",
+          "lng": "92.8525"
+        }
+      },
+      "company": {
+        "name": "РУСАЛ",
+        "catchPhrase": "Легкий металл",
+        "bs": "алюминиевая промышленность"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Юлия Медведева",
+      "username": "julia_medvedeva",
+      "email": "julia.medvedeva@example.com",
+      "phone": "+7-999-234-56-79",
+      "website": "https://juliamedvedeva.ru",
+      "address": {
+        "street": "ул. Центральная",
+        "suite": "кв. 45",
+        "city": "Пермь",
+        "zipcode": "614000",
+        "geo": {
+          "lat": "58.0105",
+          "lng": "56.2502"
+        }
+      },
+      "company": {
+        "name": "Яндекс.Еда",
+        "catchPhrase": "Вкусно и быстро",
+        "bs": "доставка еды"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Николай Зайцев",
+      "username": "nikolay_zaytsev",
+      "email": "nikolay.zaytsev@example.com",
+      "phone": "+7-999-345-67-80",
+      "website": "https://nikolayzaytsev.ru",
+      "address": {
+        "street": "ул. Садовая",
+        "suite": "кв. 23",
+        "city": "Воронеж",
+        "zipcode": "394000",
+        "geo": {
+          "lat": "51.6720",
+          "lng": "39.1843"
+        }
+      },
+      "company": {
+        "name": "Ozon",
+        "catchPhrase": "Всё для вас",
+        "bs": "интернет-торговля"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Екатерина Фролова",
+      "username": "ekaterina_frolova",
+      "email": "ekaterina.frolova@example.com",
+      "phone": "+7-999-456-78-91",
+      "website": "https://ekaterinafrolova.ru",
+      "address": {
+        "street": "пр. Победы",
+        "suite": "кв. 56",
+        "city": "Краснодар",
+        "zipcode": "350000",
+        "geo": {
+          "lat": "45.0355",
+          "lng": "38.9753"
+        }
+      },
+      "company": {
+        "name": "Магнит",
+        "catchPhrase": "Всегда низкие цены",
+        "bs": "розничная торговля"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Роман Крылов",
+      "username": "roman_krylov",
+      "email": "roman.krylov@example.com",
+      "phone": "+7-999-567-89-02",
+      "website": "https://romankrylov.ru",
+      "address": {
+        "street": "ул. Парковая",
+        "suite": "кв. 78",
+        "city": "Саратов",
+        "zipcode": "410000",
+        "geo": {
+          "lat": "51.5336",
+          "lng": "46.0343"
+        }
+      },
+      "company": {
+        "name": "МТС",
+        "catchPhrase": "Быть лучше каждый день",
+        "bs": "телекоммуникации и связь"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Наталья Григорьева",
+      "username": "natalia_grigorieva",
+      "email": "natalia.grigorieva@example.com",
+      "phone": "+7-999-678-90-13",
+      "website": "https://nataliagrigorieva.ru",
+      "address": {
+        "street": "ул. Школьная",
+        "suite": "кв. 34",
+        "city": "Тюмень",
+        "zipcode": "625000",
+        "geo": {
+          "lat": "57.1522",
+          "lng": "65.5272"
+        }
+      },
+      "company": {
+        "name": "Роснефть",
+        "catchPhrase": "Энергия лидерства",
+        "bs": "нефтегазовая отрасль"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Виктор Егоров",
+      "username": "victor_egorov",
+      "email": "victor.egorov@example.com",
+      "phone": "+7-999-789-01-24",
+      "website": "https://victoregorov.ru",
+      "address": {
+        "street": "ул. Зеленая",
+        "suite": "кв. 90",
+        "city": "Ижевск",
+        "zipcode": "426000",
+        "geo": {
+          "lat": "56.8498",
+          "lng": "53.2045"
+        }
+      },
+      "company": {
+        "name": "Калашников",
+        "catchPhrase": "Защищая мир",
+        "bs": "производство вооружений"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Светлана Алексеева",
+      "username": "svetlana_alekseeva",
+      "email": "svetlana.alekseeva@example.com",
+      "phone": "+7-999-890-12-35",
+      "website": "https://svetlanaalekseeva.ru",
+      "address": {
+        "street": "ул. Речная",
+        "suite": "кв. 12",
+        "city": "Тольятти",
+        "zipcode": "445000",
+        "geo": {
+          "lat": "53.5303",
+          "lng": "49.3461"
+        }
+      },
+      "company": {
+        "name": "АвтоВАЗ",
+        "catchPhrase": "Народный автомобиль",
+        "bs": "автомобильная промышленность"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Константин Баранов",
+      "username": "konstantin_baranov",
+      "email": "konstantin.baranov@example.com",
+      "phone": "+7-999-901-23-46",
+      "website": "https://konstantinbaranov.ru",
+      "address": {
+        "street": "пр. Строителей",
+        "suite": "офис 507",
+        "city": "Барнаул",
+        "zipcode": "656000",
+        "geo": {
+          "lat": "53.3563",
+          "lng": "83.7612"
+        }
+      },
+      "company": {
+        "name": "Wildberries",
+        "catchPhrase": "Модный шопинг",
+        "bs": "интернет-магазин"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Анастасия Титова",
+      "username": "anastasia_titova",
+      "email": "anastasia.titova@example.com",
+      "phone": "+7-999-012-34-57",
+      "website": "https://anastasiatitova.ru",
+      "address": {
+        "street": "ул. Набережная",
+        "suite": "кв. 100",
+        "city": "Владивосток",
+        "zipcode": "690000",
+        "geo": {
+          "lat": "43.1155",
+          "lng": "131.8855"
+        }
+      },
+      "company": {
+        "name": "DNS",
+        "catchPhrase": "Цифровая техника",
+        "bs": "розничная продажа электроники"
+      }
+    }
+  ]
+}
