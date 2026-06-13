@@ -1,79 +1,464 @@
 {
   "users": [
     {
-      "id": "1",
-      "name": "Максим",
-      "email": "maxim85@mail.ru"
+      "id": 1,
+      "name": "Александр Смирнов",
+      "username": "alex_smirnov",
+      "email": "a.smirnov@techmail.ru",
+      "phone": "+7-912-111-22-33",
+      "website": "https://asmirnov.dev",
+      "address": {
+        "street": "ул. Тверская",
+        "suite": "кв. 12",
+        "city": "Москва",
+        "zipcode": "101000",
+        "geo": {
+          "lat": "55.7558",
+          "lng": "37.6176"
+        }
+      },
+      "company": {
+        "name": "Яндекс",
+        "catchPhrase": "Найдётся всё",
+        "bs": "поисковые технологии"
+      }
     },
     {
-      "id": "2",
-      "name": "Алина",
-      "email": "alinka.alina@yandex.ru"
+      "id": 2,
+      "name": "Елена Иванова",
+      "username": "elena_iv",
+      "email": "elena.iv@mailservice.com",
+      "phone": "+7-921-222-33-44",
+      "website": "https://elenai.ru",
+      "address": {
+        "street": "Невский пр.",
+        "suite": "кв. 45",
+        "city": "Санкт-Петербург",
+        "zipcode": "191000",
+        "geo": {
+          "lat": "59.9343",
+          "lng": "30.3351"
+        }
+      },
+      "company": {
+        "name": "Газпром",
+        "catchPhrase": "Энергия успеха",
+        "bs": "энергетика"
+      }
     },
     {
-      "id": "3",
-      "name": "Тимур",
-      "email": "timur.tim@outlook.com"
+      "id": 3,
+      "name": "Максим Ковалёв",
+      "username": "max_kov",
+      "email": "m.kovalev@inbox.ru",
+      "phone": "+7-933-333-44-55",
+      "website": "https://mkovalev.pro",
+      "address": {
+        "street": "ул. Красная",
+        "suite": "офис 23",
+        "city": "Краснодар",
+        "zipcode": "350000",
+        "geo": {
+          "lat": "45.0355",
+          "lng": "38.9753"
+        }
+      },
+      "company": {
+        "name": "Магнит",
+        "catchPhrase": "Всегда рядом",
+        "bs": "розничная торговля"
+      }
     },
     {
-      "id": "4",
-      "name": "Вероника",
-      "email": "veronika_2000@icloud.com"
+      "id": 4,
+      "name": "Ольга Попова",
+      "username": "olga_popova",
+      "email": "o.popova@yandex.ru",
+      "phone": "+7-944-444-55-66",
+      "website": "https://opopova.ru",
+      "address": {
+        "street": "ул. Ленина",
+        "suite": "кв. 78",
+        "city": "Екатеринбург",
+        "zipcode": "620000",
+        "geo": {
+          "lat": "56.8389",
+          "lng": "60.6057"
+        }
+      },
+      "company": {
+        "name": "СКБ Контур",
+        "catchPhrase": "Автоматизация бизнеса",
+        "bs": "разработка ПО"
+      }
     },
     {
-      "id": "5",
-      "name": "Артём",
-      "email": "artem.work@bk.ru"
+      "id": 5,
+      "name": "Денис Соколов",
+      "username": "den_sokol",
+      "email": "den.sokol@gmail.com",
+      "phone": "+7-955-555-66-77",
+      "website": "https://dsokolov.tech",
+      "address": {
+        "street": "ул. Баумана",
+        "suite": "кв. 33",
+        "city": "Казань",
+        "zipcode": "420000",
+        "geo": {
+          "lat": "55.7961",
+          "lng": "49.1064"
+        }
+      },
+      "company": {
+        "name": "Татнефть",
+        "catchPhrase": "Нефтяное сердце",
+        "bs": "нефтедобыча"
+      }
     },
     {
-      "id": "6",
-      "name": "Полина",
-      "email": "polly.polina@list.ru"
+      "id": 6,
+      "name": "Анна Васильева",
+      "username": "anna_vas",
+      "email": "a.vasileva@outlook.com",
+      "phone": "+7-966-666-77-88",
+      "website": "https://avasileva.art",
+      "address": {
+        "street": "ул. Горького",
+        "suite": "кв. 90",
+        "city": "Нижний Новгород",
+        "zipcode": "603000",
+        "geo": {
+          "lat": "56.3269",
+          "lng": "44.0059"
+        }
+      },
+      "company": {
+        "name": "ГАЗ",
+        "catchPhrase": "Движение вперёд",
+        "bs": "автомобилестроение"
+      }
     },
     {
-      "id": "7",
-      "name": "Даниил",
-      "email": "d.daniel@yahoo.com"
+      "id": 7,
+      "name": "Игорь Фёдоров",
+      "username": "igor_fed",
+      "email": "i.fedorov@rambler.ru",
+      "phone": "+7-977-777-88-99",
+      "website": "https://ifedorov.net",
+      "address": {
+        "street": "пр. Октября",
+        "suite": "кв. 55",
+        "city": "Уфа",
+        "zipcode": "450000",
+        "geo": {
+          "lat": "54.7348",
+          "lng": "55.9578"
+        }
+      },
+      "company": {
+        "name": "Башнефть",
+        "catchPhrase": "Энергия региона",
+        "bs": "нефтепереработка"
+      }
     },
     {
-      "id": "8",
-      "name": "Елизавета",
-      "email": "liza.liza@rambler.ru"
+      "id": 8,
+      "name": "Татьяна Михайлова",
+      "username": "tanya_mikh",
+      "email": "t.mikhaylova@bk.ru",
+      "phone": "+7-988-888-99-00",
+      "website": "https://tmikhaylova.ru",
+      "address": {
+        "street": "ул. Пушкина",
+        "suite": "кв. 14",
+        "city": "Челябинск",
+        "zipcode": "454000",
+        "geo": {
+          "lat": "55.1644",
+          "lng": "61.4368"
+        }
+      },
+      "company": {
+        "name": "Мечел",
+        "catchPhrase": "Стальной характер",
+        "bs": "металлургия"
+      }
     },
     {
-      "id": "9",
-      "name": "Матвей",
-      "email": "matvey.m@inbox.ru"
+      "id": 9,
+      "name": "Сергей Лебедев",
+      "username": "s_lebedev",
+      "email": "s.lebedev@list.ru",
+      "phone": "+7-999-000-11-22",
+      "website": "https://slebedev.io",
+      "address": {
+        "street": "ул. Сибирская",
+        "suite": "кв. 67",
+        "city": "Новосибирск",
+        "zipcode": "630000",
+        "geo": {
+          "lat": "55.0302",
+          "lng": "82.9204"
+        }
+      },
+      "company": {
+        "name": "2ГИС",
+        "catchPhrase": "Город в деталях",
+        "bs": "картографические сервисы"
+      }
     },
     {
-      "id": "10",
-      "name": "София",
-      "email": "sofia.s@ukr.net"
+      "id": 10,
+      "name": "Наталья Павлова",
+      "username": "nata_pavlova",
+      "email": "n.pavlova@yahoo.com",
+      "phone": "+7-910-111-22-44",
+      "website": "https://npavlova.design",
+      "address": {
+        "street": "ул. Фрунзе",
+        "suite": "кв. 101",
+        "city": "Самара",
+        "zipcode": "443000",
+        "geo": {
+          "lat": "53.1959",
+          "lng": "50.1002"
+        }
+      },
+      "company": {
+        "name": "Ростелеком",
+        "catchPhrase": "Скорость без границ",
+        "bs": "телекоммуникации"
+      }
     },
     {
-      "id": "11",
-      "name": "Никита",
-      "email": "n.nikitOS@protonmail.com"
+      "id": 11,
+      "name": "Андрей Никитин",
+      "username": "andrey_nik",
+      "email": "a.nikitin@proton.me",
+      "phone": "+7-920-222-33-55",
+      "website": "https://anikitin.blog",
+      "address": {
+        "street": "ул. Мира",
+        "suite": "кв. 88",
+        "city": "Тюмень",
+        "zipcode": "625000",
+        "geo": {
+          "lat": "57.1522",
+          "lng": "65.5272"
+        }
+      },
+      "company": {
+        "name": "СИБУР",
+        "catchPhrase": "Химия возможностей",
+        "bs": "нефтехимия"
+      }
     },
     {
-      "id": "12",
-      "name": "Анастасия",
-      "email": "nastya.family@mail.com"
+      "id": 12,
+      "name": "Мария Ефимова",
+      "username": "masha_efim",
+      "email": "m.efimova@icloud.com",
+      "phone": "+7-931-333-44-66",
+      "website": "https://mefimova.ru",
+      "address": {
+        "street": "наб. Волги",
+        "suite": "кв. 22",
+        "city": "Ярославль",
+        "zipcode": "150000",
+        "geo": {
+          "lat": "57.6261",
+          "lng": "39.8845"
+        }
+      },
+      "company": {
+        "name": "Автодизель",
+        "catchPhrase": "Моторы для страны",
+        "bs": "двигателестроение"
+      }
     },
     {
-      "id": "13",
-      "name": "Егор",
-      "email": "egor.egorovich@internet.ru"
+      "id": 13,
+      "name": "Павел Захаров",
+      "username": "pavel_zakhar",
+      "email": "p.zakharov@ya.ru",
+      "phone": "+7-941-444-55-77",
+      "website": "https://pzakharov.me",
+      "address": {
+        "street": "ул. Сурикова",
+        "suite": "офис 15",
+        "city": "Красноярск",
+        "zipcode": "660000",
+        "geo": {
+          "lat": "56.0105",
+          "lng": "92.8525"
+        }
+      },
+      "company": {
+        "name": "Норильский никель",
+        "catchPhrase": "Металлы будущего",
+        "bs": "цветная металлургия"
+      }
     },
     {
-      "id": "14",
-      "name": "Виктория",
-      "email": "vika.v@rediffmail.com"
+      "id": 14,
+      "name": "Юлия Котова",
+      "username": "julia_kot",
+      "email": "j.kotova@internet.ru",
+      "phone": "+7-952-555-66-88",
+      "website": "https://jkotova.live",
+      "address": {
+        "street": "ул. Балтийская",
+        "suite": "кв. 43",
+        "city": "Калининград",
+        "zipcode": "236000",
+        "geo": {
+          "lat": "54.7104",
+          "lng": "20.4522"
+        }
+      },
+      "company": {
+        "name": "Янтарьэнерго",
+        "catchPhrase": "Свет западных рубежей",
+        "bs": "электроэнергетика"
+      }
     },
     {
-      "id": "15",
-      "name": "Кирилл",
-      "email": "kirya.kirill@zoho.com"
+      "id": 15,
+      "name": "Роман Гусев",
+      "username": "roma_gusev",
+      "email": "r.gusev@vk.com",
+      "phone": "+7-963-666-77-99",
+      "website": "https://rgusev.codes",
+      "address": {
+        "street": "пер. Дальний",
+        "suite": "кв. 7",
+        "city": "Владивосток",
+        "zipcode": "690000",
+        "geo": {
+          "lat": "43.1155",
+          "lng": "131.8855"
+        }
+      },
+      "company": {
+        "name": "FESCO",
+        "catchPhrase": "Грузы без границ",
+        "bs": "транспорт и логистика"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Алина Белова",
+      "username": "alina_bel",
+      "email": "a.belova@mai.ru",
+      "phone": "+7-974-777-88-00",
+      "website": "https://abelova.studio",
+      "address": {
+        "street": "пр. Победы",
+        "suite": "кв. 200",
+        "city": "Волгоград",
+        "zipcode": "400000",
+        "geo": {
+          "lat": "48.7080",
+          "lng": "44.5133"
+        }
+      },
+      "company": {
+        "name": "Лукойл",
+        "catchPhrase": "Всегда в движении",
+        "bs": "нефтедобыча"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Дмитрий Орлов",
+      "username": "d_orlov",
+      "email": "d.orlov@mail.ru",
+      "phone": "+7-985-888-99-11",
+      "website": "https://dorlov.zone",
+      "address": {
+        "street": "ул. Донская",
+        "suite": "кв. 56",
+        "city": "Ростов-на-Дону",
+        "zipcode": "344000",
+        "geo": {
+          "lat": "47.2225",
+          "lng": "39.7166"
+        }
+      },
+      "company": {
+        "name": "Ростсельмаш",
+        "catchPhrase": "Техника для урожая",
+        "bs": "сельхозмашиностроение"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Анастасия Ларина",
+      "username": "nastya_lar",
+      "email": "n.larina@protonmail.com",
+      "phone": "+7-996-999-00-22",
+      "website": "https://alarina.co",
+      "address": {
+        "street": "ул. Морская",
+        "suite": "кв. 33",
+        "city": "Сочи",
+        "zipcode": "354000",
+        "geo": {
+          "lat": "43.5855",
+          "lng": "39.7231"
+        }
+      },
+      "company": {
+        "name": "Роза Хутор",
+        "catchPhrase": "Горы вдохновения",
+        "bs": "туризм и отдых"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Артём Тихонов",
+      "username": "artem_tikh",
+      "email": "a.tikhonov@ok.ru",
+      "phone": "+7-907-000-11-33",
+      "website": "https://atikhonov.online",
+      "address": {
+        "street": "ул. Комсомольская",
+        "suite": "офис 88",
+        "city": "Хабаровск",
+        "zipcode": "680000",
+        "geo": {
+          "lat": "48.4802",
+          "lng": "135.0719"
+        }
+      },
+      "company": {
+        "name": "Амурский судостроительный завод",
+        "catchPhrase": "Корабли океанов",
+        "bs": "судостроение"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Ксения Исаева",
+      "username": "ksenia_is",
+      "email": "k.isaeva@live.com",
+      "phone": "+7-918-111-22-55",
+      "website": "https://kisaeva.help",
+      "address": {
+        "street": "ул. Горная",
+        "suite": "кв. 144",
+        "city": "Махачкала",
+        "zipcode": "367000",
+        "geo": {
+          "lat": "42.9764",
+          "lng": "47.5024"
+        }
+      },
+      "company": {
+        "name": "Дагэнерго",
+        "catchPhrase": "Энергия гор",
+        "bs": "гидроэнергетика"
+      }
     }
   ]
 }
